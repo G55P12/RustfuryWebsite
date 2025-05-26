@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Roboto-Condensed-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Roboto-Condensed-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Roboto-Condensed-Bold.woff2) format('woff2');
+}
+
+body {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+.panel-heading {
+    text-align: center;
+    color: rgb(220, 211, 202);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.panel-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.panel-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    transition: background 0.2s ease;
+    border-radius: 0;
+    border: 0;
+    padding: 8px 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.btn.btn-primary {
+    background: rgb(61, 75, 39);
+    color: rgb(166, 205, 99);
+}
+.btn.btn-primary:hover {
+    background: rgb(88, 108, 57);
+}
+.btn.btn-secondary {
+    background: rgb(29, 66, 95);
+    color: rgb(72, 154, 212);
+}
+.btn.btn-secondary:hover {
+    background: rgb(39, 85, 121);
+}
+.btn.btn-disabled {
+    background: rgb(89, 85, 82);
+    color: rgb(204, 195, 190);
+}
+.btn.btn-disabled:hover {
+    background: rgb(111, 107, 103);
+}
+.btn.btn-danger {
+    background: rgb(150, 47, 32);
+    color: rgb(199, 152, 151);
+}
+.btn.btn-danger:hover {
+    background: rgb(172, 56, 39);
+}
